@@ -41,6 +41,7 @@ public class RespuestaCheckbox extends JFrame implements ChangeListener{
         RespuestaCheckbox ventana = new RespuestaCheckbox();
         ventana.setBounds(0, 0, 300, 200);
         ventana.setVisible(true);
+        ventana.setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 
 }
